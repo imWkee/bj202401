@@ -4,38 +4,118 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63df0e0c-bbf8-4228-9f19-0800091f4db0" name="变更" comment="" />
+    <list default="true" id="63df0e0c-bbf8-4228-9f19-0800091f4db0" name="变更" comment="变更">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/ApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bj202401.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bj202401.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\User\Moloze\mvn" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2afG6TR5ncQowPVIOeXgcKyKpSX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ApiApplication.executor": "Run",
+    "Maven.admin [clean].executor": "Run",
+    "Maven.admin [install].executor": "Run",
+    "Maven.admin-api [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "1.8",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Main_files/Java/workspace/common-core-main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "d144705c94198dd28768c6f8d0702113",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-api\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Main_files\Java\workspace\bj202401\bj202401" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.admin.api.ApiApplication" />
+      <module name="admin-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.admin.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApiApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_392-corretto-1.8.0_392-f644763e9732-f719d367" />
+        <option value="jdk-18.0.2-corretto-18.0.2-f644763e9732-da6bd485" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -45,11 +125,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704702047101</updated>
-      <workItem from="1704702048342" duration="2237000" />
+      <workItem from="1704702048342" duration="5811000" />
+      <workItem from="1704710627182" duration="1638000" />
+      <workItem from="1704712389390" duration="4416000" />
+      <workItem from="1704768567835" duration="2790000" />
+      <workItem from="1704773845041" duration="994000" />
+      <workItem from="1704775002368" duration="596000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

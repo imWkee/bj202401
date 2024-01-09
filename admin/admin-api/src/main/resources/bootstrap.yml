@@ -1,0 +1,47 @@
+server:
+  port: 8082
+spring:
+  cloud:
+    nacos:
+      discovery:
+        enabled: true
+        server-addr: localhost:8848
+        namespace: 29b65205-b7af-4bbd-aea2-d8e9b202c165
+        group: DEFAULT_GROUP
+        username: nacos
+        password: nacos
+      config:
+        group: DEFAULT_GROUP
+        server-addr: localhost:8848
+        namespace: 29b65205-b7af-4bbd-aea2-d8e9b202c165
+        username: nacos
+        password: nacos
+        file-extension: yml
+        enabled: true
+  application:
+    name: admin-api
+  profiles:
+    active: bj202401
+  messages:
+    basename: i18n/admin
+  main:
+    allow-bean-definition-overriding: true
+    allow-circular-references: true
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        exclude: 'health,info'
+  health:
+    redis:
+      enabled: false
+logging:
+  level:
+    root: info
+    com.github: debug
+log_dir: D:\User\Moloze\data\logs/${spring.application.name}
+
+
