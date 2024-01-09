@@ -1,5 +1,5 @@
 server:
-  port: 8199
+  port: 8082
 spring:
   cloud:
     nacos:
@@ -19,7 +19,7 @@ spring:
         file-extension: yml
         enabled: true
   application:
-    name: admin-api
+    name: admin-server
   profiles:
     active: bj202401
   messages:
