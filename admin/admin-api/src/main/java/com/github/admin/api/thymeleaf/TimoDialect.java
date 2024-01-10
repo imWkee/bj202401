@@ -1,4 +1,4 @@
-package com.github.admin.api.thymeleaf.xml;
+package com.github.admin.api.thymeleaf;
 
 import org.thymeleaf.dialect.AbstractProcessorDialect;
 import org.thymeleaf.dialect.IExpressionObjectDialect;

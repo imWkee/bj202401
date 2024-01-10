@@ -23,7 +23,7 @@
         xmlns="http://www.thymeleaf.org/extras/dialect"
         prefix="mo"
         namespace-uri="https://github.com/"
-        class="com.github.admin.api.thymeleaf.xml.TimoDialect">
+        class="com.github.admin.api.thymeleaf.TimoDialect">
 
 
 

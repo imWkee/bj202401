@@ -1,4 +1,4 @@
-package com.github.admin.api.thymeleaf.xml;
+package com.github.admin.api.thymeleaf;
 
 import com.github.admin.api.utils.PageUtil;
 import org.thymeleaf.context.IExpressionContext;

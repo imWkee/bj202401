@@ -4,14 +4,20 @@ import com.github.framework.core.exception.IError;
 
 public enum AdminErrorMsgEnum  implements IError {
 
-    USER_LOGIN_CAPTCHA_IS_EMPTY("100001","请输入正确的验证码"),
-    USER_ACCOUNT_HAS_BEEN_FROZEN("100002","账号已冻结"),
+    USER_LOGIN_CAPTCHA_IS_EMPTY("10001","请输入正确的验证码"),
+    USER_ACCOUNT_HAS_BEEN_FROZEN("10002","账号已冻结"),
 
-    USER_NAME_OR_PASSWORD_IS_INCORRECT("100003","账号没有授权"),
+    USER_NAME_OR_PASSWORD_IS_INCORRECT("10003","账号没有授权"),
 
-    USER_IS_NOT_ADMIN("100004","当前用户不是管理员"),
+    USER_IS_NOT_ADMIN("10004","当前用户不是管理员"),
 
-    SYSTEM_EXCEPTION("100099","系统异常")
+    REQUEST_PARAM_IS_EMPTY("10005","请求参数为空"),
+
+    DATA_IS_NOT_EXIST("10006","数据不存在"),
+
+
+
+    SYSTEM_EXCEPTION("10099","系统异常")
 
     ;
 

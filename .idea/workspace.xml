@@ -4,722 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63df0e0c-bbf8-4228-9f19-0800091f4db0" name="变更" comment="24010924">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/properties/ProjectProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/thymeleaf/xml/Timo-Dialect.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/thymeleaf/xml/TimoDialect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/thymeleaf/xml/TimoExpressionObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/utils/HttpServletUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/utils/IPUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/utils/PageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/utils/RequestUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/utils/URL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/i18n/admin.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/i18n/admin_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/i18n/admin_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/css/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/error/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/images/alipay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/images/char-ccmiao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/images/chat-left-picture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/images/chat-right-picture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/images/chat-single-dog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/images/user-picture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/js/plugins/jquery-2.2.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/js/plugins/jquery-2.2.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/js/plugins/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/js/plugins/jquery.mousewheel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/js/timoTree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/dist/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/dist/theme/default/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/dist/theme/default/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/dist/theme/default/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/dist/theme/default/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/dist/theme/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/src/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/src/theme/default/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/src/theme/default/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/src/theme/default/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/src/theme/default/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/src/theme/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/laydate-5.3.1/test/test.url" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/.gitee/ISSUE_TEMPLATE.zh-CN.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/.github/pull_request_template.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/DISCLAIMER.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/dist/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/dist/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/dist/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/dist/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/dist/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/dist/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/dist/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/docs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/docs/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/docs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/carousel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/code.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/colorpicker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/dropdown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/element.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/element.nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/element.tab.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/extend.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/extends/mod1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/extends/mod2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/extends/temp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/flow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/js/child/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/json/table/demo1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/json/table/demo2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/json/table/demo3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/json/upload/demoLayEdit.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/laydate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/layer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/layout-admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/layout-grid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/laypage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/laytpl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/rate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/responsive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/slider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/table-static.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/table-test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/text.md.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/transfer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/util.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/examples/xingzuo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/css/modules/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/css/modules/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/lay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-2.8.0-rc.15/src/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/layui-v2.3.0/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/API_cn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/API_en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/common_ie6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/img/apiMenu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/img/apiMenu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/img/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/img/chinese.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/img/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/img/contact-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/img/english.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/img/header-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/img/lightbulb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/img/overlay_arrow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/img/overlay_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/img/overlay_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/img/overlay_close_IE6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/img/zTreeStandard.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/img/zTreeStandard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/jquery-1.6.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/jquery.ztree.core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/apiCss/zTreeStyleForApi.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/fn.zTree._z.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/fn.zTree.destroy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/fn.zTree.getZTreeObj.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/fn.zTree.init.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.async.autoParam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.async.contentType.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.async.dataFilter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.async.dataType.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.async.enable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.async.headers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.async.otherParam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.async.type.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.async.url.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.async.xhrFields.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.beforeAsync.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.beforeCheck.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.beforeClick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.beforeCollapse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.beforeDblClick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.beforeDrag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.beforeDragOpen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.beforeDrop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.beforeEditName.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.beforeExpand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.beforeMouseDown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.beforeMouseUp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.beforeRemove.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.beforeRename.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.beforeRightClick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.onAsyncError.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.onAsyncSuccess.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.onCheck.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.onClick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.onCollapse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.onDblClick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.onDrag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.onDragMove.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.onDrop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.onExpand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.onMouseDown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.onMouseUp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.onNodeCreated.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.onRemove.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.onRename.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.callback.onRightClick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.check.autoCheckTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.check.chkDisabledInherit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.check.chkStyle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.check.chkboxType.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.check.enable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.check.nocheckInherit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.check.radioType.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.data.keep.leaf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.data.keep.parent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.data.key.checked.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.data.key.children.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.data.key.isHidden.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.data.key.isParent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.data.key.name.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.data.key.title.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.data.key.url.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.data.simpleData.enable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.data.simpleData.idKey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.data.simpleData.pIdKey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.data.simpleData.rootPId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.edit.drag.autoExpandTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.edit.drag.autoOpenTime.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.edit.drag.borderMax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.edit.drag.borderMin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.edit.drag.inner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.edit.drag.isCopy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.edit.drag.isMove.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.edit.drag.maxShowNodeNum.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.edit.drag.minMoveSize.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.edit.drag.next.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.edit.drag.prev.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.edit.editNameSelectAll.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.edit.enable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.edit.removeTitle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.edit.renameTitle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.edit.showRemoveBtn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.edit.showRenameBtn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.treeId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.treeObj.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.view.addDiyDom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.view.addHoverDom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.view.autoCancelSelected.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.view.dblClickExpand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.view.expandSpeed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.view.fontCss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.view.nameIsHTML.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.view.removeHoverDom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.view.selectedMulti.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.view.showIcon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.view.showLine.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.view.showTitle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/setting.view.txtSelectedEnable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.check_Child_State.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.check_Focus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.checked.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.checkedOld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.children.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.chkDisabled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.click.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.diy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.editNameFlag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.getCheckStatus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.getIndex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.getNextNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.getParentNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.getPath.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.getPreNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.halfCheck.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.iconClose.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.iconOpen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.iconSkin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.isAjaxing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.isFirstNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.isHidden.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.isHover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.isLastNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.isParent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.level.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.name.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.nocheck.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.open.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.parentTId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.tId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.target.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.url.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/treeNode.zAsync.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.addNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.cancelEditName.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.cancelSelectedNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.checkAllNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.checkNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.copyNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.destroy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.editName.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.expandAll.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.expandNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.getChangeCheckedNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.getCheckedNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.getNodeByParam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.getNodeByTId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.getNodeIndex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.getNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.getNodesByFilter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.getNodesByParam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.getNodesByParamFuzzy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.getSelectedNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.hideNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.hideNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.moveNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.reAsyncChildNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.reAsyncChildNodesPromise.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.refresh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.removeChildNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.removeNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.selectNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.setChkDisabled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.setEditable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.showNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.showNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.transformToArray.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.transformTozTreeNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/cn/zTreeObj.updateNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/fn.zTree._z.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/fn.zTree.destroy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/fn.zTree.getZTreeObj.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/fn.zTree.init.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.async.autoParam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.async.contentType.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.async.dataFilter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.async.dataType.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.async.enable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.async.headers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.async.otherParam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.async.type.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.async.url.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.async.xhrFields.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.beforeAsync.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.beforeCheck.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.beforeClick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.beforeCollapse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.beforeDblClick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.beforeDrag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.beforeDragOpen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.beforeDrop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.beforeEditName.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.beforeExpand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.beforeMouseDown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.beforeMouseUp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.beforeRemove.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.beforeRename.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.beforeRightClick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.onAsyncError.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.onAsyncSuccess.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.onCheck.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.onClick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.onCollapse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.onDblClick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.onDrag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.onDragMove.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.onDrop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.onExpand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.onMouseDown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.onMouseUp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.onNodeCreated.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.onRemove.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.onRename.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.callback.onRightClick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.check.autoCheckTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.check.chkDisabledInherit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.check.chkStyle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.check.chkboxType.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.check.enable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.check.nocheckInherit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.check.radioType.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.data.keep.leaf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.data.keep.parent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.data.key.checked.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.data.key.children.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.data.key.isHidden.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.data.key.isParent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.data.key.name.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.data.key.title.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.data.key.url.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.data.simpleData.enable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.data.simpleData.idKey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.data.simpleData.pIdKey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.data.simpleData.rootPId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.edit.drag.autoExpandTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.edit.drag.autoOpenTime.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.edit.drag.borderMax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.edit.drag.borderMin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.edit.drag.inner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.edit.drag.isCopy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.edit.drag.isMove.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.edit.drag.maxShowNodeNum.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.edit.drag.minMoveSize.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.edit.drag.next.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.edit.drag.prev.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.edit.editNameSelectAll.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.edit.enable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.edit.removeTitle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.edit.renameTitle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.edit.showRemoveBtn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.edit.showRenameBtn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.treeId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.treeObj.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.view.addDiyDom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.view.addHoverDom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.view.autoCancelSelected.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.view.dblClickExpand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.view.expandSpeed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.view.fontCss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.view.nameIsHTML.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.view.removeHoverDom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.view.selectedMulti.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.view.showIcon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.view.showLine.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.view.showTitle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/setting.view.txtSelectedEnable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.check_Child_State.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.check_Focus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.checked.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.checkedOld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.children.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.chkDisabled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.click.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.diy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.editNameFlag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.getCheckStatus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.getIndex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.getNextNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.getParentNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.getPath.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.getPreNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.halfCheck.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.iconClose.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.iconOpen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.iconSkin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.isAjaxing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.isFirstNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.isHidden.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.isHover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.isLastNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.isParent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.level.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.name.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.nocheck.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.open.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.parentTId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.tId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.target.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.url.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/treeNode.zAsync.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.addNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.cancelEditName.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.cancelSelectedNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.checkAllNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.checkNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.copyNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.destroy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.editName.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.expandAll.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.expandNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.getChangeCheckedNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.getCheckedNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.getNodeByParam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.getNodeByTId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.getNodeIndex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.getNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.getNodesByFilter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.getNodesByParam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.getNodesByParamFuzzy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.getSelectedNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.hideNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.hideNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.moveNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.reAsyncChildNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.reAsyncChildNodesPromise.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.refresh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.removeChildNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.removeNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.selectNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.setChkDisabled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.setEditable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.showNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.showNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.transformToArray.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.transformTozTreeNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/api/en/zTreeObj.updateNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/awesomeStyle/awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/awesomeStyle/awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/awesomeStyle/fa.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/awesomeStyle/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/metroStyle/img/line_conn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/metroStyle/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/metroStyle/img/metro.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/metroStyle/img/metro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/metroStyle/metroStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/zTreeStyle/img/diy/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/zTreeStyle/img/diy/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/zTreeStyle/img/diy/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/zTreeStyle/img/diy/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/zTreeStyle/img/diy/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/zTreeStyle/img/diy/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/zTreeStyle/img/diy/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/zTreeStyle/img/diy/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/zTreeStyle/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/js/jquery.ztree.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/js/jquery.ztree.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/js/jquery.ztree.core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/js/jquery.ztree.core.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/js/jquery.ztree.excheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/js/jquery.ztree.excheck.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/js/jquery.ztree.exedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/js/jquery.ztree.exedit.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/js/jquery.ztree.exhide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/static/lib/zTree_v3/js/jquery.ztree.exhide.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/403.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/common/fragment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/common/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/logger/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/logger/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/main/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/menu/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/menu/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/menu/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/menu/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/role/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/role/auth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/role/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/role/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/role/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/role/userList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/user/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/user/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/user/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/user/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/user/pwd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/templates/manager/user/role.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/constants/AdminConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/enums/AdminErrorMsgEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/request/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/utils/CaptchaUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/utils/EncryptUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/utils/EntityBeanUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/utils/ShiroUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/utils/ToolUtil.java" afterDir="false" />
+    <list default="true" id="63df0e0c-bbf8-4228-9f19-0800091f4db0" name="变更" comment="24011012">
+      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/config/AdminMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/config/ThymeleafConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/filter/UserAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/properties/ShiroProjectProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/resolver/MyLocaleResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/shiro/manage/RememberMeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/shiro/real/AuthRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-client/src/main/java/com/github/admin/client/UserServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/AdminServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/AdminServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/thymeleaf/xml/Timo-Dialect.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/thymeleaf/xml/Timo-Dialect.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/thymeleaf/xml/TimoDialect.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/thymeleaf/TimoDialect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/thymeleaf/xml/TimoExpressionObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/thymeleaf/TimoExpressionObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/resources/i18n/admin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/i18n/admin.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/resources/i18n/admin_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/i18n/admin_en_US.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/resources/i18n/admin_zh_CN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/i18n/admin_zh_CN.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/RoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/RoleMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/enums/AdminErrorMsgEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/enums/AdminErrorMsgEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserMapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserMapp.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -729,6 +44,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -761,6 +77,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ApiApplication.executor": "Run",
+    "JUnit.UserServiceTest._根据用户账号查询用户.executor": "Run",
+    "JUnit.UserServiceTest.executor": "Run",
     "Maven.admin [clean].executor": "Run",
     "Maven.admin [install].executor": "Run",
     "Maven.admin-api [install].executor": "Run",
@@ -777,7 +95,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Main_files/Java/workspace/bj202401/bj202401/admin/admin-common/src/main/java/com/github/admin/common/constants",
+    "last_opened_file_path": "D:/Main_files/Java/workspace/bj202401/bj202401/admin/admin-common/src/main/java/com/github/admin/common/domain",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -791,20 +109,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-common\src\main\java\com\github\admin\common\constants" />
-      <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-common\src\main\java\com\github\admin\common\enums" />
-      <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-common\src\main\java\com\github\admin\common\request" />
-      <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-common\src\main\java\com\github\admin\common\utils" />
-      <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-api\src\main\java\com\github\admin\api\thymeleaf" />
+      <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-common\src\main\java\com\github\admin\common\domain" />
+      <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-api\src\main\java\com\github\admin\api\config" />
+      <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-api\src\main\java\com\github\admin\api\filter" />
+      <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-api\src\main\java\com\github\admin\api\properties" />
+      <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-api\src\main\java\com\github\admin\api\resolver" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-api\src\main\java\com\github\admin\api\utils" />
       <recent name="D:\Main_files\Java\workspace\bj202401\bj202401" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.github.admin.server.service" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiApplication">
+  <component name="RunManager" selected="JUnit.UserServiceTest">
     <configuration name="ApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.admin.api.ApiApplication" />
       <module name="admin-api" />
@@ -814,6 +138,37 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="admin-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.admin.server.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.admin.server.service" />
+      <option name="MAIN_CLASS_NAME" value="com.github.admin.server.service.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest._根据用户账号查询用户" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="admin-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.admin.server.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.admin.server.service" />
+      <option name="MAIN_CLASS_NAME" value="com.github.admin.server.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="_根据用户账号查询用户" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -846,6 +201,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.UserServiceTest._根据用户账号查询用户" />
         <item itemvalue="Spring Boot.ApiApplication" />
         <item itemvalue="Spring Boot.AdminServerApplication" />
         <item itemvalue="Application.ApiApplication" />
@@ -874,7 +231,7 @@
       <workItem from="1704768567835" duration="2790000" />
       <workItem from="1704773845041" duration="994000" />
       <workItem from="1704775002368" duration="596000" />
-      <workItem from="1704832598264" duration="8189000" />
+      <workItem from="1704832598264" duration="26070000" />
     </task>
     <task id="LOCAL-00001" summary="24010924">
       <option name="closed" value="true" />
@@ -884,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704832930752</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="24011012">
+      <option name="closed" value="true" />
+      <created>1704857348736</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704857348736</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -903,6 +268,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="24010924" />
-    <option name="LAST_COMMIT_MESSAGE" value="24010924" />
+    <MESSAGE value="24011012" />
+    <option name="LAST_COMMIT_MESSAGE" value="24011012" />
   </component>
 </project>
