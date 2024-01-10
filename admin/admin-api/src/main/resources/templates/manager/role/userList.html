@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/common/template :: header(~{::title},~{::link},~{::style})">
+    <style>
+        a{
+            color: #009688;
+        }
+        a:hover{
+            color: #004a43;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="timo-detail-page">
+        <table class="layui-table">
+            <thead>
+            <tr>
+                <th>用户名</th>
+                <th>用户昵称</th>
+                <th>性别</th>
+                <th>状态</th>
+                <th>电话</th>
+                <th>邮箱</th>
+                <th>创建时间</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="item:${list}">
+                <td th:text="${item.userName}">用户名</td>
+                <td th:text="${item.nickName}">用户昵称</td>
+                <td th:text="${item.sex == 1 ? '男': '女'}">性别</td>
+                <td th:text="${item.status == 1 ? '启用' : '停用'}">状态</td>
+                <td th:text="${item.phone}">电话</td>
+                <td th:text="${item.email}">邮箱</td>
+                <td th:text="${#dates.format(item.createDate, 'yyyy-MM-dd HH:mm:ss')}">创建时间</td>
+            </tr>
+            <tr th:if="${#lists.isEmpty(list)}">
+                <td style="text-align: center" colspan="9">未有分配该角色的用户</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+<script th:replace="/common/template :: script"></script>
+</body>
+</html>

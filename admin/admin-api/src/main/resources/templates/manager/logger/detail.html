@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="/common/template :: header(~{::title},~{::link},~{::style})">
+</head>
+<body>
+    <div class="timo-detail-page">
+        <div class="timo-detail-title">基本信息</div>
+        <table class="layui-table timo-detail-table">
+            <tbody>
+            <tr>
+                <th width='100px'>日志编号</th>
+                <td th:text="${adminLog.id}"></td>
+                <th width='100px'>URI</th>
+                <td th:text="${adminLog.uri}"></td>
+            </tr>
+            <tr>
+                <th>操作人</th>
+                <td th:text="${adminLog.userName}"></td>
+                <th>操作时间</th>
+                <td th:text="${#dates.format(adminLog.createDate, 'yyyy-MM-dd HH:mm:ss')}"></td>
+            </tr>
+            <tr>
+                <th>耗时/ms</th>
+                <td th:text="${adminLog.spendTime}"></td>
+                <th>URL</th>
+                <td th:text="${adminLog.url}"></td>
+            </tr>
+            <tr>
+                <th>方法</th>
+                <td th:text="${adminLog.method}"></td>
+                <th>参数</th>
+                <td th:text="${adminLog.parameter}"></td>
+            </tr>
+            <tr>
+                <th>IP</th>
+                <td colspan="4" th:text="${adminLog.ip}"></td>
+            </tr>
+            <tr>
+                <th>用户代理</th>
+                <td colspan="4"><pre>[[${adminLog.userAgent}]]</pre></td>
+            </tr>
+            <tr>
+                <th>状态</th>
+                <td colspan="4"><pre>[[${adminLog.statusCode}]]</pre></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+<script th:replace="/common/template :: script"></script>
+</body>
+</html>

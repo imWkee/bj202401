@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:mo="https://gitee.com/aun/Timo"
+      xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<head th:replace="/common/template :: header(~{::title},~{::link},~{::style})">
+</head>
+<body class="timo-layout-page">
+<div class="layui-card">
+    <div class="layui-card-header timo-card-header">
+        <span><i class="fa fa-bars"></i> 日志管理</span>
+        <i class="layui-icon layui-icon-refresh refresh-btn"></i>
+    </div>
+    <div class="layui-card-body">
+        <div class="layui-row timo-card-screen">
+            <div class="pull-left layui-form-pane timo-search-box">
+                <div class="layui-inline">
+                    <label class="layui-form-label">操作人</label>
+                    <div class="layui-input-block">
+                        <input type="text" name="userName"  placeholder="请输入操作人" autocomplete="off"
+                               class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-inline">
+                    <label class="layui-form-label">URI </label>
+                    <div class="layui-input-block">
+                        <input type="text" name="uri"  placeholder="请输入URI" autocomplete="off"
+                               class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-inline" id="createDate">
+                    <label class="layui-form-label">时间范围 </label>
+                    <div class="layui-input-block">
+                        <input type="text" name="startDate" id="startDate" placeholder="请输入开始时间" autocomplete="off"
+                               class="layui-input" readonly="readonly">
+                    </div>
+                </div>
+                至
+                <div class="layui-inline">
+                    <div class="layui-input-block">
+                        <input type="text" name="endDate" id="endDate" placeholder="请输入结束时间" autocomplete="off"
+                               class="layui-input" readonly="readonly">
+                    </div>
+                </div>
+                <div class="layui-inline">
+                    <button class="layui-btn timo-search-btn">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="pull-right screen-btn-group">
+                <a class="layui-btn ajax-get" data-msg="您是否确认清空日志" th:href="@{/system/actionLog/delete}"
+                   shiro:hasPermission="system:actionLog:status">
+                    <i class="fa fa-trash"></i> 清空日志</a>
+            </div>
+        </div>
+        <div class="timo-table-wrap">
+            <table class="layui-table timo-table timo-table-fixed">
+                <thead>
+                <tr>
+                    <th class="timo-table-checkbox">
+                        <label class="timo-checkbox"><input type="checkbox">
+                            <i class="layui-icon layui-icon-ok"></i></label>
+                    </th>
+                    <th class="sortable" data-field="uri">URI</th>
+                    <th class="sortable" data-field="user_name">操作人</th>
+                    <th class="sortable" data-field="create_date">操作时间</th>
+                    <th class="sortable" data-field="spend_time">耗时/ms</th>
+                    <th class="sortable" data-field="url">URL</th>
+                    <th class="sortable" data-field="method">请求类型</th>
+                    <th class="sortable" data-field="parameter">请求参数</th>
+                    <th class="sortable" data-field="ip">IP</th>
+                    <th class="sortable" data-field="user_agent">用户代理</th>
+                    <th class="sortable" data-field="status_code">状态码</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="item:${list}">
+                    <td>
+                        <label class="timo-checkbox">
+                            <input type="checkbox" th:value="${item.id}">
+                            <i class="layui-icon layui-icon-ok"></i>
+                        </label>
+                    </td>
+                    <td th:text="${item.uri}" th:title="${item.uri}">URI</td>
+                    <td th:text="${item.userName}">操作人</td>
+                    <td th:text="${#dates.format(item.createDate, 'yyyy-MM-dd HH:mm:ss')}" th:title="${#dates.format(item.createDate, 'yyyy-MM-dd HH:mm:ss')}">操作时间</td>
+                    <td th:text="${item.spendTime}" >耗时/ms</td>
+                    <td th:text="${item.url}" th:title="${item.url}">URL</td>
+                    <td th:text="${item.method}" th:title="${item.method}">请求类型</td>
+                    <td th:text="${item.parameter}" th:title="${item.parameter}">请求参数</td>
+                    <td th:text="${item.ip}" th:title="${item.ip}">IP</td>
+                    <td th:text="${item.userAgent}" th:title="${item.userAgent}">用户代理</td>
+                    <td th:text="${item.statusCode}" th:title="${item.statusCode}">状态码</td>
+                    <td>
+                        <a class="open-popup" data-title="详细信息" th:attr="data-url=@{'/system/actionLog/detail/'+${item.id}}" shiro:hasPermission="system:actionLog:detail" data-size="800,600" href="#">详细</a>
+                        <a class="ajax-get" data-msg="您是否确认删除" th:href="@{'/system/actionLog/delete/'+${item.id}}" shiro:hasPermission="system:actionLog:status">删除</a>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div th:replace="/common/fragment :: page"></div>
+    </div>
+</div>
+<script th:replace="/common/template :: script"></script>
+<script type="text/javascript">
+    laydate.render({
+        elem: '#createDate'
+        //设置开始日期、日期日期的 input 选择器
+        //数组格式为 5.3.0 开始新增，之前版本直接配置 true 或任意分割字符即可
+        ,range: ['#startDate', '#endDate']
+    });
+</script>
+</body>
+</html>
