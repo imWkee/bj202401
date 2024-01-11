@@ -9,7 +9,7 @@
         <result column="role_id" property="roleId"/>
     </resultMap>
 
-    <select id="findUserRoleByUserId" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    <select id="findRoleByUserId" parameterType="java.lang.Long" resultMap="BaseResultMap">
         select * from sys_user_role where user_id = #{userId}
     </select>
 </mapper>

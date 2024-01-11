@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 @FeignClient(name="admin-server", url = "127.0.0.1:8082")
 public interface UserServiceClient {
 
-
     // 代理
     @GetMapping("/findUserByUserName")
     Result<User> findUserByUserName(@PathVariable("userName") String userName);

@@ -9,4 +9,16 @@
         <result column="menu_id" property="menuId"/>
     </resultMap>
 
+    <select id="findRoleMenuByRoleIds" parameterType="java.util.List" resultMap="BaseResultMap">
+        select * from sys_role_menu
+        <where>
+            <if test="roleIds != null">
+                role_id in
+                <foreach item="roleId" index="index" collection="roleIds"
+                         open="(" separator="," close=")">
+                    #{roleId}
+                </foreach>
+            </if>
+        </where>
+    </select>
 </mapper>

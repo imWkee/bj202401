@@ -5,5 +5,5 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 public interface RoleService {
 
-    Result<Boolean> findUserRoleByUserId(Long userId);
+    Result<Boolean> findRoleByUserId(Long userId);
 }

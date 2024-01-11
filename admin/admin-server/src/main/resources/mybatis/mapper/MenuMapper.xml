@@ -20,7 +20,19 @@
         <result column="create_by" property="createBy"/>
         <result column="update_by" property="updateBy"/>
         <result column="status" property="status"/>
-
     </resultMap>
+
+    <select id="findMenuByMenuIds" parameterType="java.util.List" resultMap="BaseResultMap">
+        select * from sys_menu
+        <where>
+            <if test="menuIdList != null">
+                id in
+                <foreach item="menuId" index="index" collection="menuIdList"
+                         open="(" separator="," close=")">
+                    #{menuId}
+                </foreach>
+            </if>
+        </where>
+    </select>
 
 </mapper>

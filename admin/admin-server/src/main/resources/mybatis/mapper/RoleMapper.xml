@@ -16,5 +16,16 @@
         <result column="status" property="status"/>
     </resultMap>
 
+    <select id="findRoleByRoleIds" parameterType="java.util.List" resultMap="BaseResultMap">
+        select * from sys_role
+        <where>
+            <if test="roleIds != null">
+                <foreach item="roleId" index="index" collection="roleIds"
+                         open="(" separator="," close=")">
+                    #{roleId}
+                </foreach>
+            </if>
+        </where>
+    </select>
 </mapper>
 

@@ -23,9 +23,9 @@ public class RoleServiceTest {
     private RoleService roleServiceImpl;
 
     @Test
-    public void _根据用户ID查询用户() {
+    public void _测试用户是否授权() {
 
-        Result<Boolean> result = roleServiceImpl.findUserRoleByUserId(1L);
+        Result<Boolean> result = roleServiceImpl.findRoleByUserId(1L);
 
         log.info("查询用户数据返回code = {},message = {}",result.getCode(),result.getMessage());
 

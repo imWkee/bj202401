@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface UserRoleDao {
 
-    List<UserRole> findUserRoleByUserId(Long userId);
+    List<UserRole> findRoleByUserId(Long userId);
 }
