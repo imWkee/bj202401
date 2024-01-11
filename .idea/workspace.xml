@@ -4,37 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63df0e0c-bbf8-4228-9f19-0800091f4db0" name="变更" comment="24011012">
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/config/AdminMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/config/ShiroConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/config/ThymeleafConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/filter/UserAuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/properties/ShiroProjectProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/resolver/MyLocaleResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/shiro/manage/RememberMeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/shiro/real/AuthRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-client/src/main/java/com/github/admin/client/UserServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/service/UserServiceTest.java" afterDir="false" />
+    <list default="true" id="63df0e0c-bbf8-4228-9f19-0800091f4db0" name="变更" comment="24011024">
+      <change afterPath="$PROJECT_DIR$/admin/admin-client/src/main/java/com/github/admin/client/RoleServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/RoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/service/RoleServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/thymeleaf/xml/Timo-Dialect.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/thymeleaf/xml/Timo-Dialect.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/thymeleaf/xml/TimoDialect.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/thymeleaf/TimoDialect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/thymeleaf/xml/TimoExpressionObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/thymeleaf/TimoExpressionObjectFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/resources/i18n/admin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/i18n/admin.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/resources/i18n/admin_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/i18n/admin_en_US.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/resources/i18n/admin_zh_CN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/resources/i18n/admin_zh_CN.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/shiro/real/AuthRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/shiro/real/AuthRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-client/src/main/java/com/github/admin/client/UserServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-client/src/main/java/com/github/admin/client/UserServiceClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/RoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/RoleMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/domain/UserRole.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/enums/AdminErrorMsgEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/enums/AdminErrorMsgEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/RoleDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/dao/UserRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserMapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserMapp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/service/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -59,6 +55,8 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\User\Moloze\mvn" />
+        <option name="mavenHome" value="D:\App_files\apache-maven-3.9.6" />
+        <option name="userSettingsFile" value="D:\App_files\apache-maven-3.9.6\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -77,8 +75,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ApiApplication.executor": "Run",
-    "JUnit.UserServiceTest._根据用户账号查询用户.executor": "Run",
-    "JUnit.UserServiceTest.executor": "Run",
+    "JUnit.RoleServiceTest._根据用户ID查询用户.executor": "Run",
+    "JUnit.RoleServiceTest.executor": "Run",
+    "JUnit.UserServiceTest._根据用户账号查询用户.executor": "Debug",
+    "JUnit.UserServiceTest.executor": "Debug",
     "Maven.admin [clean].executor": "Run",
     "Maven.admin [install].executor": "Run",
     "Maven.admin-api [install].executor": "Run",
@@ -104,7 +104,8 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "spring.configuration.checksum": "d144705c94198dd28768c6f8d0702113",
     "vue.rearranger.settings.migration": "true"
   }
@@ -128,16 +129,34 @@
       <recent name="com.github.admin.server.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest">
-    <configuration name="ApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.admin.api.ApiApplication" />
-      <module name="admin-api" />
+  <component name="RunManager" selected="JUnit.RoleServiceTest">
+    <configuration name="RoleServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="admin-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.admin.api.*" />
+          <option name="PATTERN" value="com.github.admin.server.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.github.admin.server.service" />
+      <option name="MAIN_CLASS_NAME" value="com.github.admin.server.service.RoleServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoleServiceTest._根据用户ID查询用户" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="admin-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.admin.server.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.admin.server.service" />
+      <option name="MAIN_CLASS_NAME" value="com.github.admin.server.service.RoleServiceTest" />
+      <option name="METHOD_NAME" value="_根据用户ID查询用户" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,19 +192,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="admin-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.admin.server.AdminServerApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.admin.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="admin-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.admin.api.ApiApplication" />
@@ -201,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.RoleServiceTest" />
+        <item itemvalue="JUnit.RoleServiceTest._根据用户ID查询用户" />
         <item itemvalue="JUnit.UserServiceTest._根据用户账号查询用户" />
+        <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="Spring Boot.ApiApplication" />
-        <item itemvalue="Spring Boot.AdminServerApplication" />
-        <item itemvalue="Application.ApiApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +237,10 @@
       <workItem from="1704768567835" duration="2790000" />
       <workItem from="1704773845041" duration="994000" />
       <workItem from="1704775002368" duration="596000" />
-      <workItem from="1704832598264" duration="26070000" />
+      <workItem from="1704832598264" duration="28957000" />
+      <workItem from="1704882064143" duration="227000" />
+      <workItem from="1704882339264" duration="83000" />
+      <workItem from="1704882483494" duration="20424000" />
     </task>
     <task id="LOCAL-00001" summary="24010924">
       <option name="closed" value="true" />
@@ -249,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704857348736</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="24011024">
+      <option name="closed" value="true" />
+      <created>1704879290380</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704879290380</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +286,23 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="24010924" />
     <MESSAGE value="24011012" />
-    <option name="LAST_COMMIT_MESSAGE" value="24011012" />
+    <MESSAGE value="24011024" />
+    <option name="LAST_COMMIT_MESSAGE" value="24011024" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/service/RoleServiceTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/service/UserServiceTest.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

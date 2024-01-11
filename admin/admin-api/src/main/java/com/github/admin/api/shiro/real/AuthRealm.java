@@ -1,9 +1,12 @@
 package com.github.admin.api.shiro.real;
 
 
+import com.github.admin.client.UserServiceClient;
 import com.github.admin.common.constants.AdminConst;
 import com.github.admin.common.domain.User;
+import com.github.admin.common.enums.AdminErrorMsgEnum;
 import com.github.admin.common.utils.ShiroUtil;
+import com.github.framework.core.Result;
 import com.github.framework.core.exception.Ex;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.authc.*;
@@ -13,10 +16,12 @@ import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.codec.CodecSupport;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.apache.shiro.util.ByteSource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
 
 
 @Slf4j
@@ -24,8 +29,8 @@ public class AuthRealm extends AuthorizingRealm {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(AuthRealm.class);
 
-//    @Resource
-//    private UserServiceClient userServiceClient;
+      @Resource
+      private UserServiceClient userServiceClient;
 //    @Resource
 //    private RoleServiceClient roleServiceClient;
 
@@ -67,8 +72,8 @@ public class AuthRealm extends AuthorizingRealm {
 //        } else {
 //            throw new UnknownAccountException();
 //        }
-        return info;
 
+        return info;
     }
 
     /**
@@ -78,27 +83,27 @@ public class AuthRealm extends AuthorizingRealm {
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) {
         UsernamePasswordToken token = (UsernamePasswordToken) authenticationToken;
         // 获取数据库中的用户名密码
-//        Result<User> result = userServiceClient.findUserByUserName(token.getUsername());
-//        if (result.isSuccess()) {
-//            User user = result.getData();
-//            // 判断用户名是否存在
-//            if (user == null) {
-//                throw new UnknownAccountException();
-//            }else if(!user.getStatus().equals(AdminConst.START_STATUS)) {
-//                throw new LockedAccountException();
-//            }
-//            // 对盐进行加密处理
-//            ByteSource salt = ByteSource.Util.bytes(user.getSalt());
-//            /* 传入密码自动判断是否正确
-//             * 参数1：传入对象给Principal
-//             * 参数2：正确的用户密码
-//             * 参数3：加盐处理
-//             * 参数4：固定写法
-//             */
-//            return new SimpleAuthenticationInfo(user, user.getPassword(), salt, getName());
-//         }
+        Result<User> result = userServiceClient.findUserByUserName(token.getUsername());
+        if (result.isSuccess()) {
+            User user = result.getData();
+            // 判断用户名是否存在
+            if (user == null) {
+                throw new UnknownAccountException();
+            }else if(!user.getStatus().equals(AdminConst.START_STATUS)) {
+                throw new LockedAccountException();
+            }
+            // 对盐进行加密处理
+            ByteSource salt = ByteSource.Util.bytes(user.getSalt());
+            /* 传入密码自动判断是否正确
+             * 参数1：传入对象给Principal
+             * 参数2：正确的用户密码
+             * 参数3：加盐处理
+             * 参数4：固定写法
+             */
+            return new SimpleAuthenticationInfo(user, user.getPassword(), salt, getName());
+         }
 
-         throw Ex.business("000000","系统异常");
+         throw Ex.business(AdminErrorMsgEnum.SYSTEM_EXCEPTION);
     }
 
     /**

@@ -4,9 +4,13 @@
     <file url="file://$PROJECT_DIR$/admin/admin-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/admin/admin-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/admin/admin-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/admin-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/admin/admin-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/admin-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/admin/admin-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/admin/admin-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/admin/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

@@ -33,5 +33,4 @@ public class Menu implements Serializable {
     private User createUser;
     private User updateUser;
 
-
 }

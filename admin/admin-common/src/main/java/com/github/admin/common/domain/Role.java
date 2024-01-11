@@ -17,6 +17,7 @@ public class Role implements Serializable {
     private Long createBy;
     private Long updateBy;
     private Integer status;
+
     private User createUser;
     private User updateUser;
 

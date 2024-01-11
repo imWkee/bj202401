@@ -17,6 +17,7 @@ public enum AdminErrorMsgEnum  implements IError {
 
 
 
+
     SYSTEM_EXCEPTION("10099","系统异常")
 
     ;

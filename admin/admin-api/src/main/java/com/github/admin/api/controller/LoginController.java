@@ -10,7 +10,6 @@ import com.github.admin.common.request.LoginRequest;
 import com.github.admin.common.utils.CaptchaUtil;
 import com.github.framework.core.Result;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.catalina.security.SecurityUtil;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.LockedAccountException;
@@ -116,7 +115,7 @@ public class LoginController {
             subject.login(token);
             // 判断是否拥有后台对象
             User user = (User) SecurityUtils.getSubject().getPrincipal();
-
+            // R
             Result<Boolean> result = null;
             if (result.isSuccess()) {
                 return Result.ok(new URL("/main"));

@@ -1,6 +1,5 @@
 package com.github.admin.server.service;
 
-import com.github.admin.common.domain.User;
 import com.github.framework.core.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
@@ -9,24 +8,24 @@ import org.springframework.boot.test.context.SpringBootTest;
 import javax.annotation.Resource;
 
 /**
- * @Time: 2024/1/10
+ * @Time: 2024/1/11
  * @Author: Wangke
- * @Description: 测试UserService接口
- * @FileName: UserServiceTest.java
+ * @Description: 测试RoleService接口
+ * @FileName: RoleServiceTest.java
  * @Software: IntelliJ IDEA
  **/
 
 @Slf4j
 @SpringBootTest
-public class UserServiceTest {
+public class RoleServiceTest {
 
     @Resource
-    private UserService userServiceImpl;
+    private RoleService roleServiceImpl;
 
     @Test
-    public void _根据用户账号查询用户() {
+    public void _根据用户ID查询用户() {
 
-        Result<User> result = userServiceImpl.findUserByUserName("admin");
+        Result<Boolean> result = roleServiceImpl.findUserRoleByUserId(1L);
 
         log.info("查询用户数据返回code = {},message = {}",result.getCode(),result.getMessage());
 
