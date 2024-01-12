@@ -31,8 +31,7 @@ public class RoleController {
 
     @GetMapping("/findRolePermissionsByUserId/{userId}")
     Result<Set<Role>> findRolePermissionsByUserId(@PathVariable("userId") Long userId){
-
-        return null;
+        return roleServiceImpl.findRolePermissionsByUserId(userId);
     };
 
 }

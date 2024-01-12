@@ -6,7 +6,6 @@ import com.github.admin.common.enums.AdminErrorMsgEnum;
 import com.github.admin.server.dao.*;
 import com.github.admin.server.service.RoleService;
 import com.github.framework.core.Result;
-import com.google.common.collect.Lists;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

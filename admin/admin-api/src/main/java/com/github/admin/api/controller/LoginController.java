@@ -5,6 +5,7 @@ import com.alibaba.cloud.commons.lang.StringUtils;
 import com.github.admin.api.properties.ProjectProperties;
 import com.github.admin.api.utils.URL;
 import com.github.admin.client.RoleServiceClient;
+import com.github.admin.client.UserServiceClient;
 import com.github.admin.common.domain.User;
 import com.github.admin.common.enums.AdminErrorMsgEnum;
 import com.github.admin.common.request.LoginRequest;

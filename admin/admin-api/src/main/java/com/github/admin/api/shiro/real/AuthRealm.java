@@ -1,8 +1,11 @@
 package com.github.admin.api.shiro.real;
 
 
+import com.alibaba.nacos.common.utils.StringUtils;
 import com.github.admin.client.UserServiceClient;
+import com.github.admin.client.RoleServiceClient;
 import com.github.admin.common.constants.AdminConst;
+import com.github.admin.common.domain.Role;
 import com.github.admin.common.domain.User;
 import com.github.admin.common.enums.AdminErrorMsgEnum;
 import com.github.admin.common.utils.ShiroUtil;
@@ -22,6 +25,7 @@ import org.slf4j.LoggerFactory;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
+import java.util.Set;
 
 
 @Slf4j
@@ -31,8 +35,8 @@ public class AuthRealm extends AuthorizingRealm {
 
       @Resource
       private UserServiceClient userServiceClient;
-//    @Resource
-//    private RoleServiceClient roleServiceClient;
+      @Resource
+      private RoleServiceClient roleServiceClient;
 
     /**
      * 授权逻辑
@@ -55,23 +59,23 @@ public class AuthRealm extends AuthorizingRealm {
             info.addStringPermission("*:*:*");
             return info;
         }
-//
+
         // 赋予角色和资源授权
-//        Result<Set<Role>> result = roleServiceClient.findRolePermissionsByUserId(userId);
-//        if(result.isSuccess()){
-//            Set<Role> roles = result.getData();
-//                    roles.forEach(role -> {
-//                        info.addRole(role.getName());
-//                        role.getMenus().forEach(menu -> {
-//                            String perms = menu.getPerms();
-//                            if (StringUtils.isNotBlank(perms) && !perms.contains("*")) {
-//                                info.addStringPermission(perms);
-//                            }
-//                        });
-//                    });
-//        } else {
-//            throw new UnknownAccountException();
-//        }
+        Result<Set<Role>> result = roleServiceClient.findRolePermissionsByUserId(userId);
+        if(result.isSuccess()){
+            Set<Role> roles = result.getData();
+                    roles.forEach(role -> {
+                        info.addRole(role.getName());
+                        role.getMenus().forEach(menu -> {
+                            String perms = menu.getPerms();
+                            if (StringUtils.isNotBlank(perms) && !perms.contains("*")) {
+                                info.addStringPermission(perms);
+                            }
+                        });
+                    });
+        } else {
+            throw new UnknownAccountException();
+        }
 
         return info;
     }
