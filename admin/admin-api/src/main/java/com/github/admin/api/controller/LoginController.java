@@ -4,6 +4,7 @@ import cn.hutool.core.util.RandomUtil;
 import com.alibaba.cloud.commons.lang.StringUtils;
 import com.github.admin.api.properties.ProjectProperties;
 import com.github.admin.api.utils.URL;
+import com.github.admin.client.RoleServiceClient;
 import com.github.admin.common.domain.User;
 import com.github.admin.common.enums.AdminErrorMsgEnum;
 import com.github.admin.common.request.LoginRequest;
@@ -44,6 +45,9 @@ public class LoginController {
 
     @Resource
     private ProjectProperties properties;
+
+    @Resource
+    private RoleServiceClient roleServiceClient;
 
     @GetMapping(value = {"/login", "/"})
     public String login(Model model, HttpServletResponse response) {
@@ -115,8 +119,7 @@ public class LoginController {
             subject.login(token);
             // 判断是否拥有后台对象
             User user = (User) SecurityUtils.getSubject().getPrincipal();
-            // R
-            Result<Boolean> result = null;
+            Result<Boolean> result = roleServiceClient.findRoleByUserId(user.getId());
             if (result.isSuccess()) {
                 return Result.ok(new URL("/main"));
             } else {
