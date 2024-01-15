@@ -9,6 +9,8 @@ import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
@@ -43,6 +45,19 @@ public class UserController {
             model.addAttribute("page", dataPage);
         }
         return "manager/user/index";
+    }
+
+    @GetMapping("/system/user/add")
+    @RequiresPermissions("system:user:add")
+    public String add() {
+        return "manager/user/add";
+    }
+
+    @PostMapping("/system/user/save")
+    @RequiresPermissions("system:user:add")
+    @ResponseBody
+    public Result add(UserRequest request) {
+        return userServiceClient.saveUser(request);
     }
 
 }

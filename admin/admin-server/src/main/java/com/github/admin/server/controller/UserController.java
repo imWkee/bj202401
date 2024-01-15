@@ -33,4 +33,9 @@ public class UserController {
         return userServiceImpl.findUserByPage(userRequest);
     }
 
+    @PostMapping("/saveUser")
+    Result saveUser(@RequestBody UserRequest request){
+        return userServiceImpl.saveUser(request);
+    };
+
 }

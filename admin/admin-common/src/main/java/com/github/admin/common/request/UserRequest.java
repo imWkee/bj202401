@@ -14,4 +14,14 @@ import lombok.Data;
 @Data
 public class UserRequest extends BaseRequest {
 
+    private String userName;
+    private String nickName;
+    private String password;
+    private String confirm;
+    private String phone;
+    private String email;
+    private Integer status;
+    private Integer sex;
+    private String remark;
+
 }

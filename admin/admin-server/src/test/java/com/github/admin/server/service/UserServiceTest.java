@@ -1,6 +1,7 @@
 package com.github.admin.server.service;
 
 import com.github.admin.common.domain.User;
+import com.github.admin.common.request.UserRequest;
 import com.github.framework.core.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
@@ -31,4 +32,25 @@ public class UserServiceTest {
         log.info("查询用户数据返回code = {},message = {}",result.getCode(),result.getMessage());
 
     }
+
+    @Test
+    public void _添加用户() {
+
+        UserRequest user = new UserRequest();
+        user.setUserName("Test");
+        user.setNickName("测试");
+        user.setPassword("123456");
+        user.setConfirm("123456");
+        user.setPhone("09610086");
+        user.setEmail("123@163.com");
+        user.setStatus(1);
+        user.setSex(1);
+
+        Result result = userServiceImpl.saveUser(user);
+
+        log.info("添加用户数据返回code = {},message = {}",result.getCode(),result.getMessage());
+
+    }
+
+
 }

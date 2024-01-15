@@ -15,4 +15,6 @@ public interface UserDao {
 
     List<User> findUserByPageList(Map<String, Object> map);
 
+    int insert(User user);
+
 }
