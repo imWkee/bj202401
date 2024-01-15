@@ -1,11 +1,11 @@
 package com.github.admin.server.controller;
 
 import com.github.admin.common.domain.User;
+import com.github.admin.common.request.UserRequest;
 import com.github.admin.server.service.UserService;
 import com.github.framework.core.Result;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import com.github.framework.core.page.DataPage;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
@@ -21,12 +21,16 @@ import javax.annotation.Resource;
 public class UserController {
 
     @Resource
-    // @Autowired
     private UserService userServiceImpl;
 
     @GetMapping("/findUserByUserName")
     Result<User> findUserByUserName(@RequestParam("userName") String userName){
         return userServiceImpl.findUserByUserName(userName);
+    }
+
+    @PostMapping("/findUserByPage")
+    Result<DataPage<User>> findUserByPage(@RequestBody UserRequest userRequest) {
+        return userServiceImpl.findUserByPage(userRequest);
     }
 
 }

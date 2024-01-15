@@ -28,6 +28,11 @@ public class MainController {
     @Resource
     private MenuServiceClient menuServiceClient;
 
+    @GetMapping("/main/index")
+    public String index(){
+        return "manager//main/index";
+    }
+
     @GetMapping("/main")
     public String main(Model model) {
         User user = (User) SecurityUtils.getSubject().getPrincipal();

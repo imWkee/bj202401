@@ -27,5 +27,16 @@
         select * from sys_user where id = #{id}
     </select>
 
+    <select id="findUserByPageCount" parameterType="map" resultType="java.lang.Long">
+        select count(*) from sys_user
+    </select>
+
+    <select id="findUserByPageList" parameterType="map" resultMap="BaseResultMap">
+        select * from sys_user
+        <if test="startIndex != null and endIndex != null">
+            limit #{startIndex},#{endIndex}
+        </if>
+    </select>
+
 </mapper>
 
