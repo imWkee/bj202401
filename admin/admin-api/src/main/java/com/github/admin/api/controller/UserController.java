@@ -2,13 +2,16 @@ package com.github.admin.api.controller;
 
 import com.github.admin.client.UserServiceClient;
 import com.github.admin.common.domain.User;
+import com.github.admin.common.group.AddUserGroup;
 import com.github.admin.common.request.UserRequest;
 import com.github.framework.core.Result;
 import com.github.framework.core.page.DataPage;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -56,8 +59,21 @@ public class UserController {
     @PostMapping("/system/user/save")
     @RequiresPermissions("system:user:add")
     @ResponseBody
-    public Result add(UserRequest request) {
+    public Result add(@Validated(value = AddUserGroup.class) UserRequest request) {
         return userServiceClient.saveUser(request);
     }
+
+    @GetMapping("/system/user/edit/{id}")
+    @RequiresPermissions("system:user:edit")
+    public String edit(@PathVariable("id")Long id, Model model) {
+        User user = new User();
+        Result<User> result = userServiceClient.findUserById(id);
+        if(result.isSuccess()){
+            user = result.getData();
+            model.addAttribute("user",user);
+        }
+        return "manager/user/edit";
+    }
+
 
 }

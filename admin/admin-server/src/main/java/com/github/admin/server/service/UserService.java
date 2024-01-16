@@ -17,4 +17,6 @@ public interface UserService {
     Result<DataPage<User>> findUserByPage(UserRequest userRequest);
 
     Result saveUser(UserRequest request);
+
+    Result<User> findUserById(Long id);
 }

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63df0e0c-bbf8-4228-9f19-0800091f4db0" name="变更" comment="24011512">
+    <list default="true" id="63df0e0c-bbf8-4228-9f19-0800091f4db0" name="变更" comment="24011524">
+      <change afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/handler/ResultExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/group/AddUserGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin-common/src/main/java/com/github/admin/common/group/UpdateUserGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-api/src/main/java/com/github/admin/api/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/admin-client/src/main/java/com/github/admin/client/UserServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-client/src/main/java/com/github/admin/client/UserServiceClient.java" afterDir="false" />
@@ -15,7 +18,6 @@
       <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/java/com/github/admin/server/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserMapp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/main/resources/mybatis/mapper/UserMapp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-server/src/test/java/com/github/admin/server/service/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -85,7 +87,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Main_files/Java/workspace/bj202401/bj202401/admin/admin-common/src/main/java/com/github/admin/common/domain",
+    "last_opened_file_path": "D:/Main_files/Java/workspace/bj202401/bj202401/admin/admin-api/src/main/java/com/github/admin/api/handler",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -105,11 +107,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-api\src\main\java\com\github\admin\api\handler" />
       <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-common\src\main\java\com\github\admin\common\domain" />
       <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-api\src\main\java\com\github\admin\api\config" />
       <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-api\src\main\java\com\github\admin\api\filter" />
       <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-api\src\main\java\com\github\admin\api\properties" />
-      <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-api\src\main\java\com\github\admin\api\resolver" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Main_files\Java\workspace\bj202401\bj202401\admin\admin-api\src\main\java\com\github\admin\api\utils" />
@@ -119,7 +121,7 @@
       <recent name="com.github.admin.server.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest._添加用户">
+  <component name="RunManager" selected="Spring Boot.ApiApplication">
     <configuration name="RoleServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="admin-server" />
       <extension name="coverage">
@@ -194,10 +196,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ApiApplication" />
+        <item itemvalue="Spring Boot.AdminServerApplication" />
         <item itemvalue="JUnit.UserServiceTest._添加用户" />
         <item itemvalue="JUnit.UserServiceTest" />
-        <item itemvalue="Spring Boot.AdminServerApplication" />
-        <item itemvalue="Spring Boot.ApiApplication" />
         <item itemvalue="JUnit.RoleServiceTest" />
       </list>
     </recent_temporary>
@@ -229,7 +231,7 @@
       <workItem from="1704882339264" duration="83000" />
       <workItem from="1704882483494" duration="38251000" />
       <workItem from="1705023316234" duration="30649000" />
-      <workItem from="1705282417663" duration="21781000" />
+      <workItem from="1705282417663" duration="29110000" />
     </task>
     <task id="LOCAL-00001" summary="24010924">
       <option name="closed" value="true" />
@@ -295,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705293615693</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="24011524">
+      <option name="closed" value="true" />
+      <created>1705312910387</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1705312910387</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +343,8 @@
     <MESSAGE value="24011212" />
     <MESSAGE value="24011224" />
     <MESSAGE value="24011512" />
-    <option name="LAST_COMMIT_MESSAGE" value="24011512" />
+    <MESSAGE value="24011524" />
+    <option name="LAST_COMMIT_MESSAGE" value="24011524" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

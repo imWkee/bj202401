@@ -17,6 +17,10 @@ public enum AdminErrorMsgEnum  implements IError {
 
     USER_PASSWORD_IS_NOT_SAME("10007","用户输入密码不一致"),
 
+    USER_NAME_IS_EXIST("10008","当前用户已存在"),
+
+    USER_NAME_HAS_INCLUDE_BLANK("10009","账号存在空格"),
+
     OPERATION_FAIL("10098","操作失败"),
     SYSTEM_EXCEPTION("10099","系统异常")
 

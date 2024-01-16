@@ -20,4 +20,7 @@ public interface UserServiceClient {
     @PostMapping("/saveUser")
     Result saveUser(@RequestBody UserRequest request);
 
+    @GetMapping("/findUserById/{id}")
+    Result<User> findUserById(@PathVariable("id") Long id);
+
 }

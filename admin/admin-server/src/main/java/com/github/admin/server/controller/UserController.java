@@ -38,4 +38,9 @@ public class UserController {
         return userServiceImpl.saveUser(request);
     };
 
+    @GetMapping("/findUserById/{id}")
+    Result<User> findUserById(@PathVariable("id") Long id){
+        return userServiceImpl.findUserById(id);
+    };
+
 }

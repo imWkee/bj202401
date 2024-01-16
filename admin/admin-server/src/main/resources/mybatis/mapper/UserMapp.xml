@@ -63,9 +63,9 @@
         </if>
     </select>
 
-    <insert id="insert" parameterType="user">
-        insert into sys_user (username,nickname,password,salt,picture,sex,email,phone,remark,create_date,update_date,status)
-        values(#{userName},#{nickName},#{password},#{salt},#{picture},#{sex},#{email},#{phone},#{remark},#{createDate},#{updateDate},#{status})
+    <insert id="insert" parameterType="User">
+        insert into sys_user(username,nickname,password,salt,picture,sex,phone,email,create_date,update_date,remark,status)
+        values (#{userName},#{nickName},#{password},#{salt},#{picture},#{sex},#{phone},#{email},#{createDate},#{updateDate},#{remark},#{status})
     </insert>
 
 </mapper>
